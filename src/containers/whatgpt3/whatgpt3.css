@@ -1,0 +1,122 @@
+.gpt3-wgpt3 {
+  display: flex;
+  flex-direction: column;
+  margin: 4rem 4.5rem;
+  padding: 2rem 2rem;
+  background: var(--color-footer);
+
+  /* ff 3.6+ */
+  background: -moz-radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.gpt3-wgpt3 .possibility {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4rem 0;
+}
+.gpt3-wgpt3 .possibility h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 40px;
+  max-width: 500px;
+}
+.gradient-text {
+  background: var(--gradient-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gpt3-wgpt3 .possibility p {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 30px;
+  color: var(--color-subtext);
+  cursor: pointer;
+}
+.gpt3-wgpt3 .whatgpt3-features {
+  display: flex;
+}
+.gpt3-wgpt3 .whatgpt3-features .gpt3-feature {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 850px) {
+  .gpt3-wgpt3 {
+    margin: 4rem 3.5rem;
+  }
+  .gpt3-wgpt3 .possibility h1 {
+    font-size: 25px;
+    line-height: 34px;
+    max-width: 450px;
+  }
+  .gpt3-wgpt3 .possibility p {
+    font-size: 13px;
+    line-height: 24px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .gpt3-wgpt3 {
+    margin: 4rem 2rem;
+    padding: 2rem;
+  }
+  .gpt3-wgpt3 .possibility {
+    flex-direction: column;
+    margin: 2rem 0;
+    display: block;
+  }
+  .gpt3-wgpt3 .possibility h1 {
+    font-size: 20px;
+    line-height: 24px;
+    max-width: 350px;
+  }
+  .gpt3-wgpt3 .possibility p {
+    margin-top: 0.85rem;
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .gpt3-wgpt3 .whatgpt3-features {
+    flex-direction: column;
+  }
+}

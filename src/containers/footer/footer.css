@@ -1,0 +1,105 @@
+.gpt3-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-footer);
+  padding: 3rem 4.5rem 1rem;
+}
+.gpt3-footer-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.gpt3-footer-heading h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 50px;
+  letter-spacing: -0.04em;
+}
+.gpt3-footer-heading button {
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 32px;
+}
+.gpt3-footer-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 2rem 0;
+}
+.gpt3-footer-content .footer-links {
+  max-width: 400px;
+  margin-right: 6rem;
+}
+.gpt3-footer-content .footer-links img {
+  width: 85px;
+  height: 40px;
+}
+.gpt3-footer-content .footer-links h4 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+}
+.gpt3-footer-content .footer-links p,
+.gpt3-footer .gpt3-footer-text p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  cursor: pointer;
+}
+.gpt3-footer .gpt3-footer-text p {
+  margin-top: 1rem;
+}
+.gpt3-footer .gpt3-footer-text .fa-icon {
+  color: var(--color-subtext);
+  margin-inline: 0.4rem;
+  transform: translateY(25%);
+}
+
+@media screen and (max-width: 850px) {
+  .gpt3-footer {
+    padding: 3rem 3.5rem 1rem;
+  }
+  .gpt3-footer-heading h1 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .gpt3-footer-content .footer-links {
+    margin-right: 4rem;
+  }
+  .gpt3-footer-content .footer-links p,
+  .gpt3-footer .gpt3-footer-text p {
+    font-size: 13px;
+    line-height: 22px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .gpt3-footer {
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 3rem 2rem 1rem;
+  }
+  .gpt3-footer-content {
+    flex-direction: column;
+    margin: 1rem 0 2rem;
+  }
+  .gpt3-footer-content .footer-links {
+    max-width: 100%;
+    margin: 0.5rem 0 0.5rem 0;
+  }
+  .gpt3-footer .gpt3-footer-text p {
+    text-align: center;
+  }
+}

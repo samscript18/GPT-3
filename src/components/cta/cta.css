@@ -1,0 +1,65 @@
+.gpt3-cta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem 4.5rem;
+  padding: 1.5rem;
+  background: var(--gradient-bar);
+  border-radius: 1rem;
+}
+.gpt3-cta-title p,
+.gpt3-cta-title h3 {
+  color: #000;
+}
+.gpt3-cta-title p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 22px;
+}
+.gpt3-cta-title h3 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 17px;
+  line-height: 28px;
+}
+.gpt3-cta-button .cta-btn {
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  background-color: #000;
+  color: #fff;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 25px;
+  border: none;
+}
+
+@media screen and (max-width: 850px) {
+  .gpt3-cta {
+    margin-inline: 3.5rem;
+  }
+  .gpt3-cta-title p {
+    font-size: 13px;
+    line-height: 22px;
+  }
+  .gpt3-cta-title h3 {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .gpt3-cta-button .cta-btn {
+    padding: 0.5rem 1rem;
+
+    font-size: 13px;
+    line-height: 25px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .gpt3-cta {
+    flex-direction: column;
+    margin-inline: 2rem;
+  }
+  .gpt3-cta-title {
+    margin-bottom: 1rem;
+  }
+}

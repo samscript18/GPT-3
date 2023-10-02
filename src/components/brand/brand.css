@@ -1,0 +1,41 @@
+.gpt3-brand {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 6rem;
+}
+.gpt3-brand div {
+  flex: 1;
+  max-width: 150px;
+  min-width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gpt3-brand div img {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 850px) {
+  .gpt3-brand div {
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+  }
+  .gpt3-brand div img {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .gpt3-brand {
+    padding: 2rem;
+  }
+  .gpt3-brand div {
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+  .gpt3-brand div img {
+    max-width: 100%;
+    padding: 1.5rem 0.5rem 0 0;
+  }
+}
